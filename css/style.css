@@ -1,0 +1,292 @@
+@font-face {
+    font-family: Averta;
+    src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Averta;
+}
+
+#container {
+    padding: 35px 40px 0 40px;
+    background-color: rgb(255, 253, 245);
+    min-height: 100vh;
+}
+
+.main-header {
+    display: flex;
+}
+
+.right-links {
+    display: flex;
+    margin-left: 170px;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+}
+
+.navigation ul li {
+    margin-left: 70px;
+    padding: 10px 0 0 0;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #514949;
+    font-family: Averta;
+    font-size: 18px;
+}
+
+.thumb-img img {
+    width: 70px;
+    margin-left: 40px;
+    cursor: pointer;
+    border: solid 3px #e7332b;
+    border-radius: 100%;
+    background-color: #e7332b;
+    padding: 5px;
+    margin-top: -10px;
+    position: relative;
+    left: 25px;
+}
+
+.enrol {
+    margin-top: 12px;
+}
+
+.enrol a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    border: solid 1px #e7332b;
+    background-color: #e7332b;
+    padding: 10px 40px;
+    border-radius: 60px;
+}
+
+.img-1 img {
+    width: 80%;
+    padding-top: 20%;
+    margin-left: 17%;
+    mix-blend-mode: darken;
+}
+
+.img-2 img {
+    width: 10%;
+    margin-left: 28rem;
+    position: relative;
+    bottom: 75px;
+}
+
+.img-text {
+    display: flex;
+}
+
+.flex-row {
+    margin-right: 8rem;
+    padding-top: 2%;
+}
+
+.text-1 p {
+    color: #e7332b;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.heading h1 {
+    font-size: 55px;
+    width: 155%;
+    text-align: center;
+    color: #1b1a20;
+    font-weight: 700;
+    line-height: 115%;
+    position: relative;
+    right: 25%;
+}
+
+.img-3 img {
+    width: 25rem;
+    padding-top: 15%;
+    position: relative;
+    right: 2.7rem;
+    mix-blend-mode: darken;
+}
+
+.img-line img {
+    width: 50%;
+    margin-top: 0.3rem;
+    margin-left: 17rem;
+}
+
+.basic-text {
+    text-align: center;
+    color: #1b1a20;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    margin-top: 3%;
+    width: 120%;
+    position: relative;
+    right: 2rem;
+}
+
+.a-link {
+    text-align: center;
+    margin-top: 2.3rem;
+}
+
+.a-link a {
+    text-decoration: none;
+    border: solid 1px #e7332b;
+    border-radius: 71px;
+    background-color: #e7332b;
+    color: #fff;
+    padding: 10px 32px;
+}
+
+.arrow-line img {
+    width: 25%;
+    margin-top: 0.8rem;
+    margin-left: 55%;
+    padding-bottom: 1.7rem;
+}
+
+.div-flex2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.3rem;
+}
+
+hr {
+    border: solid 0.1px #514949;
+    opacity: 0.2;
+}
+
+.div2-text {
+    color: #1b1a20;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 140%;
+    width: 75%;
+}
+
+.ingressive-img img {
+    mix-blend-mode: darken;
+    width: 180%;
+    position: relative;
+    bottom: 29%;
+    left: 25%;
+}
+
+.text-value p {
+    font-size: 20px;
+    color: #1b1a20;
+    line-height: 120%;
+    text-align: right;
+    width: 60%;
+    margin-left: 35%;
+}
+
+.curly-arrow img {
+    margin-left: 15%;
+    margin-top: 2%;
+    width: 6%;
+}
+
+.red-text {
+    color: #e7332b;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.black-text {
+    font-size: 30px;
+    font-weight: 800;
+    color: #1b1a20;
+    line-height: 120%;
+    width: 55%;
+}
+
+.zuri-text {
+    display: flex;
+}
+
+.star-img img {
+    width: 70%;
+    position: relative;
+    right: 400px;
+    mix-blend-mode: darken;
+}
+
+.div3-flex {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+}
+
+.div3-1 {
+    border: solid 1px none;
+    border-radius: 18px;
+    background-color: #e7332b;
+    width: 27%;
+}
+
+.div3-1 img,
+.div3-2 img,
+.div3-3 img {
+    width: 34%;
+    position: relative;
+    left: 66.3%;
+}
+
+.div3-1 h3,
+h5,
+p {
+    color: #ffff;
+    padding: 0px 0px 0px 35px;
+}
+
+.div3-flex h3 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.div3-flex h5 {
+    font-size: 30px;
+    width: 60%;
+    margin-bottom: 15px;
+}
+
+.div3-flex p {
+    font-size: 17px;
+    width: 85%;
+    padding-bottom: 65px;
+    font-weight: 400;
+}
+
+.div3-2,
+.div3-3 {
+    border: solid 1px none;
+    border-radius: 18px;
+    background-color: #fff;
+    width: 27%;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+}
+
+.div3-2 h3,
+h5,
+p,
+.div3-3 h3,
+h5,
+p {
+    color: #1b1a20;
+    padding: 0px 0px 0px 35px;
+}
