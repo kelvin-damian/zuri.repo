@@ -1,0 +1,236 @@
+@font-face {
+    font-family: Averta;
+    src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Averta;
+}
+
+#container {
+    padding-top: 3%;
+    background-image: url(https://zuri.team/img/hero-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.zuriImage {
+    text-align: center;
+}
+
+.heading h2 {
+    text-align: center;
+    padding-top: 5rem;
+    font-family: Averta;
+    font-size: 32px;
+    font-weight: 800px;
+    color: #514949;
+    margin-bottom: 5rem;
+    line-height: 48px;
+}
+
+.heading p {
+    text-align: center;
+    max-width: 680px;
+    margin-top: 15px;
+    margin: 0 auto;
+    color: #514949;
+    font-family: Averta;
+}
+
+.a-link {
+    color: #E7332B;
+    text-decoration: none;
+}
+
+.button {
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.button1 {
+    padding: 11px 28px;
+    background-color: #E7332B;
+    color: #ffff;
+    border: solid 1px;
+    border: transparent;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.button1:hover {
+    background-color: #fff;
+    color: #E7332B;
+    border: solid 1px #E7332B;
+}
+
+.button2 {
+    padding: 11px 28px;
+    background-color: #fff;
+    color: #E7332B;
+    border: solid 1px #E7332B;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 2rem;
+    border: visible;
+}
+
+.button2:hover {
+    background-color: #E7332B;
+    color: #fff;
+    border: solid 1px #E7332B;
+}
+
+
+/*container2*/
+
+#container2 {
+    padding-top: 10rem;
+}
+
+.heading2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    color: #E7332B;
+    line-height: 24px;
+    font-weight: 800;
+}
+
+.heading2 p {
+    font-size: 24px;
+    color: #514949;
+    line-height: 40px;
+    max-width: 390px;
+    margin: 0 auto;
+    margin-top: 1.7rem;
+}
+
+
+/*div-flex*/
+
+#container2 {
+    background-color: #fff;
+}
+
+.div-flex {
+    display: flex;
+}
+
+
+/*.left-img img {
+    width: 200%;
+    position: relative;
+    right: 17%;
+    bottom: -45%;
+    top: 10%;
+}*/
+
+
+/*.right-img img {
+    width: 600%;
+    position: relative;
+    left: 99%;
+    bottom: -25%;
+    top: 6%;
+    z-index: -1;
+}*/
+
+.heading3 {
+    border: solid 1px #FFFAFA;
+    background-color: #FFFAFA;
+    margin-top: 5.2rem;
+    padding: 27px 45px 50px 25px;
+    position: relative;
+    margin: 0 auto;
+    top: 160px;
+}
+
+.heading3 img {
+    border: solid 1px #fff;
+    background-color: #fff;
+    padding: 10px 5px 10px 5px;
+}
+
+.heading3 p {
+    color: #514949;
+    line-height: 24px;
+    padding-top: 2.3rem;
+    font-size: 17px;
+    width: 350px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.heading3 .a-link {
+    position: relative;
+    top: 19px;
+}
+
+
+/*footer*/
+
+footer {
+    padding: 25rem 5rem 10rem 5rem;
+}
+
+.div-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-flex .a-link {
+    margin-top: 1.3rem;
+}
+
+.a-link a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #E7332B;
+}
+
+.foot-flex h3 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #514949;
+    line-height: 24px;
+}
+
+.foot-flex p {
+    color: #514949;
+    width: 15.3rem;
+    margin-top: 1.2rem;
+    font-size: 16px;
+}
+
+.social-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.follow-us img {
+    width: 1.2rem;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+}
+
+.line hr {
+    margin-top: 3.8rem;
+    border: solid 0.1px #514949;
+    opacity: 0.2;
+}
+
+.copy {
+    margin-top: 2.5rem;
+    text-align: center;
+    color: #514949;
+    font-size: 18px;
+    font-weight: bold;
+}
